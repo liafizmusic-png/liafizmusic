@@ -1,10 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>LiafizMusic</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+font-family:'Poppins',sans-serif;
+
+background:
+linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.82)),
+url("background.png");
+
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+background-attachment:fixed;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+min-height:100vh;
+
+padding:20px;
+
+color:#fff;
+
+}
+
+.card{
+
+width:100%;
+max-width:360px;
+
+background:rgba(0,0,0,.45);
+
+backdrop-filter:blur(16px);
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:25px;
+
+padding:30px 24px;
+
+text-align:center;
+
+box-shadow:0 0 35px rgba(0,170,255,.35);
+
+}
+
+.logo{
+
+width:110px;
+
+display:block;
+
+margin:auto;
+
+margin-bottom:20px;
+
+filter:drop-shadow(0 0 15px #00bfff);
+
+}
+
+h1{
+
+font-size:32px;
+
+font-weight:700;
+
+margin-bottom:10px;
+
+}
+
+.subtitle{
+
+font-size:15px;
+
+line-height:1.8;
+
+color:#d7d7d7;
+
+margin-bottom:30px;
+
+}
+
+.btn{
+
+display:block;
+
+width:100%;
+
+padding:16px;
+
+margin:15px 0;
+
+border-radius:16px;
+
+text-decoration:none;
+
+font-size:18px;
+
+font-weight:600;
+
+color:#fff;
+
+background:linear-gradient(90deg,#0077ff,#00c6ff);
+
+box-shadow:0 0 20px rgba(0,180,255,.45);
+
+transition:.3s;
+
+}
+
+.btn:hover{
+
+transform:translateY(-3px);
+
+box-shadow:0 0 30px #00c6ff;
+
+}
+
+.footer{
+
+margin-top:25px;
+
+font-size:13px;
+
+color:#bdbdbd;
+
+line-height:1.6;
+
+}
+
+@media(max-width:480px){
+
+.card{
+
+max-width:330px;
+
+padding:25px 20px;
+
+}
+
+.logo{
+
+width:95px;
+
+}
+
+h1{
+
+font-size:28px;
+
+}
+
+.subtitle{
+
+font-size:14px;
+
+}
+
+.btn{
+
+font-size:17px;
+
+padding:15px;
+
+}
+
+}
+
+</style>
 
 </head>
+
+<body>
+
+<div class="card">
+
+<img src="logo.png" class="logo">
+
+<h1>LiafizMusic</h1>
+
+<div class="subtitle">
+
+🎵 Original Music<br>
+
+🎬 Cinematic Visuals<br>
+
+✨ AI Creative Studio
+
+</div>
+
+<a class="btn" href="https://youtube.com/@liafizmusic?si=Pr07JgzY0FIBXFZX">
+
+▶ YouTube
+
+</a>
+
+<a class="btn" href="https://www.tiktok.com/@liafizmusic?_r=1&_t=ZS-97jqfFpqll7">
+
+🎵 TikTok
+
+</a>
+
+<div class="footer">
+
+Every Beat Tells A Story
+
+</div>
+
+</div>
+
+</body>
+
+</html>
